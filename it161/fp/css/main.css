@@ -1,0 +1,222 @@
+
+
+
+h1 {color: #f9e4bc;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+h2 {color: #008080;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  
+}
+
+.gift-card {
+  text-align: center;  
+  color: #f9e4bc;
+ 
+}
+
+ .buttons {
+  background-color: #964b00;
+  font-size: 20px;
+  padding: 20px;
+  border: solid black;
+  border-radius: 10px;
+  cursor: pointer;
+ }
+
+ .grid-image{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-image img {
+  object-fit: cover;
+  width:100%;
+  height: 100%;
+}
+
+.contact-button {
+  background-color: #964b00;
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+  text-align: center;
+  border: solid black;
+  border-radius: 10px;
+  color:#f9e4bc;
+  font-weight: bold;
+
+}
+
+.social-container ul a.fa {
+  font-size: 32px;
+  margin-right: 20px;
+}
+.social-container ul a.fa-twitter {
+  color: #1da1f2; 
+}
+.social-container ul a.fa-facebook {
+  color: #4267B2; 
+}
+.social-container ul a.fa-instagram {
+  color: #E1306C; 
+}
+
+small {
+  color: #f9e4bc; 
+}
+
+.tougocoffee {
+
+  color: #f9e4bc;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+.Footer-business-info-item--address {
+  display: inline-block;
+  color: #f9e4bc;
+  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Store */
+
+.clock-center{
+  display: block;
+  margin: 0;
+}
+.daily-container {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 5px;
+  border: 2px solid #f9e4bc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.business-hours-heading {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  
+ 
+}
+.hours-cell {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:smaller;
+ margin: auto;
+ width:100px;
+ height: 20px;
+
+}
+
+.coffee-roots {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  padding: 20px;
+  font-size: medium;
+}
+
+/* Community Calendar CSS */
+
+.monthly-community-calendar {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+
+
+}
+.monthly-container {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  margin: 0 auto;
+  display: table;
+  border: 2px solid #f9e4bc;
+  border-radius: 10px;
+  width:200px;
+  
+
+}
+
+
+
+
+
+
+/* desktop */
+@media (min-width: 768px) {
+    body {
+      background: #f9e4bc;
+      font-size: 22px;
+      line-height: 1.5;
+    }
+    header {
+      
+      background: linear-gradient(to right,#411900,#964b00);
+      padding: 20px;
+    }
+
+    footer {
+      background: linear-gradient(to right,#411900,#008080);
+        padding: 15px;
+        text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      background: linear-gradient(to bottom,#964b00,#f9e4bc);
+    }
+  }
+
+  /* Tablet */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+      font-size: 20px;
+      
+    }
+    header {
+      background: linear-gradient(to right,#411900,#964b00);
+      padding: 15px;
+    }
+
+    footer {
+      background: linear-gradient(to right,#411900,#008080);
+        padding: 5px;
+        text-align: center;
+    }
+    main {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+
+  /* Mobile */
+@media (max-width: 319px) {
+    body {
+      font-size: 16px;
+    }
+    header {
+      background-color: #411900;
+      padding: 5px;
+    }
+
+    footer {
+        background-color:#964b00;
+        padding: 5px;
+        text-align: center;
+    }
+    main {
+      max-width: 250px;
+      margin: 0 auto;
+    }
+  }

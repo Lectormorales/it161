@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+.topnav {
+   
+    background: linear-gradient(to right,#008080,#964b00,#411900);
+    color: #964b00;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .topnav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topnav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .topnav a {
+    color:#EAB043;
+    text-decoration: none;
+  }
+  
+  .topnav a:hover {
+    color: #f9e4bc;
+  }
+
+.active {
+  background-image: linear-gradient(to bottom,#411900, #008080);
+  height: 25px; /* Set a height to see the gradient */
+  width: 200px; /* Set a width to see the gradient */
+  display: flex; /* Center the text */
+  justify-content: center;
+  align-items: center;
+  color: #000; /* Add some contrast to the text */
+  
+}
+
+
+

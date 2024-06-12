@@ -1,0 +1,78 @@
+
+
+
+h1 {color: #f9e4bc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+  }
+  
+
+
+
+
+table {
+    border: 2px,solid black;
+    width:80%;
+    border-collapse: collapse;
+    margin:auto;
+    background:linear-gradient(to left,#812406,#2AEAC4);
+    font-size: medium;
+    
+}
+
+tr {
+  vertical-align:top;
+}
+
+td,th {
+  border:2px dotted #000;
+  padding:.5em;
+}
+
+table.client {
+    margin:40px auto; /* T R B L */
+}
+
+table.client th {
+    text-align: left;
+    width:30%;
+}
+
+table.audience th {
+    margin:40px auto; /* T R B L */
+}
+
+table.audience th{
+    width:33.3%;
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+    body {
+      background: #f9e4bc;
+      font-size: 22px;
+      line-height: 1.5;
+    }
+    header {
+      
+      background: linear-gradient(to right,#411900,#964b00);
+      padding: 20px;
+    }
+
+    footer {
+      background: linear-gradient(to right,#411900,#008080);
+        padding: 15px;
+        text-align: center;
+    }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      background: linear-gradient(to bottom,#964b00,#f9e4bc);
+    }
+  }
+
+ 
